@@ -1,6 +1,8 @@
 html , body{
     font-family: Arial, Helvetica, sans-serif;
     height: 100%;
+    background-image: url(bg.jpeg);
+    background-attachment: fixed;
 }
 .WT1{
     text-align: center;
@@ -28,6 +30,8 @@ html , body{
 }
 /* The hero image */
 .banner {
+    border: 5;
+    border-color: blueviolet;
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("banner.jpeg");
   
@@ -69,4 +73,39 @@ html , body{
     color: wheat;
     font-size: 40px;
     cursor: pointer;
+}
+.p1{
+    border-color: black;
+    margin-top: 70px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+    color: black;
+    font-size: 10px;
+    width: 400px;
+      border-style: solid;
+      text-align: center;
+}
+.pi1{
+    width: 300px;
+}
+.pb1{
+     background-color: rgb(91, 143, 12);
+     color: white;
+     font-size: 20px;
+     width: 300px;
+     border: 2px;
+     border-color: black;
+     border-style: solid;
+     margin-bottom: 10px;
+}
+.pb1:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.pbody1{
+    text-align: center;
+    border: 5px;
+    border-color: white;
+    border-style: solid;
 }
